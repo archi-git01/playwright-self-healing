@@ -1,0 +1,23 @@
+{
+  "#broken-username-field-999": {
+    "description": "Username input field",
+    "healed_selector": "#user-name",
+    "confidence": "HIGH (Local Heuristic)",
+    "reason": "Matched element ID 'user-name' via weighted semantic scoring.",
+    "healed_at": "2026-11-22 17:25:16"
+  },
+  "input[name='wrong-password-attr']": {
+    "description": "Password input field",
+    "healed_selector": "#password",
+    "confidence": "HIGH (Local Heuristic)",
+    "reason": "Matched element ID 'password' via weighted semantic scoring.",
+    "healed_at": "2026-11-22 17:25:23"
+  },
+  "button.non-existent-submit-btn": {
+    "description": "Login submit button",
+    "healed_selector": "#login-button",
+    "confidence": "HIGH (Local Heuristic)",
+    "reason": "Matched element ID 'login-button' via weighted semantic scoring.",
+    "healed_at": "2026-11-22 17:25:29"
+  }
+}
